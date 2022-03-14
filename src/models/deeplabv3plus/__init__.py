@@ -43,9 +43,6 @@ def get_deeplabv3plus_model(name: str, n_class: int):
     elif name.lower() == 'deeplabv3pluscatbboxandsegms':
         return deeplabv3pluscatbboxandseg(cfg, multi=True)
 
-    elif name.lower() == 'dualasppdeeplabwithbboxandseg':
-        return dualasppdeeplabwithbboxandseg(cfg)
-
     elif name.lower() == 'deeplabv3plus3branch':
         return deeplabv3plus3branch(cfg)
     elif name.lower() == 'deeplabv3plus3branchsegattention':
@@ -96,16 +93,6 @@ def get_deeplabv3plus_model(name: str, n_class: int):
     else:
         raise Exception(f'*** model name wrong, {name} not legal')
 
-
-def _deeplabv3plus_get_model_test():
-    name_list = ['deeplabv3plusxception-8os', 'deeplabv3plusxception', 'deeplabv3plusxception-16os',
-                 'deeplabv3plusatrousresnet101-8os', 'deeplabv3plusatrousresnet101-16os',
-                 'deeplabv3plusatrousresnet101',
-                 'deeplabv3plusatrousresnet152', 'deeplabv3plusatrousresnet152-16os',
-                 'deeplabv3plusatrousresnet152-8s']
-    for name in name_list:
-        model = get_deeplabv3plus_model(name=name, n_class=21)
-        print(model)
 
 
 

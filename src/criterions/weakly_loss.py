@@ -1,7 +1,3 @@
-"""
-Author: Davy Neven
-Licensed under the CC BY-NC 4.0 license (https://creativecommons.org/licenses/by-nc/4.0/)
-"""
 import math
 
 import numpy as np
@@ -9,7 +5,6 @@ from torchvision import transforms
 import torch
 import torch.nn as nn
 from criterions.lovasz_losses import lovasz_hinge
-from datasets.CityscapesDataset import class_ids_to_index
 import random
 
 
