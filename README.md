@@ -14,6 +14,12 @@ Instance segmentation in aerial images is of great significance for remote sensi
 
 ![overview](./graphic_abstract.png)
 
+Pretrained model will be available at: https://pan.baidu.com/s/1FMFR7Nj4vGSoP7jvi9_KvQ 
+
+code: g92c
+
+
+
 ## Citation
 
 If you use our code for research, please ensure that you cite our paper:
