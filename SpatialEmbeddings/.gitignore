@@ -26,6 +26,4 @@ dist/
 .idea
 
 # project dirs
-/datasets
-/models
 /FCOS

@@ -242,7 +242,7 @@ class ClusterForWeakly:
         spatial_emb = torch.tanh(prediction[0:2]) + xym_s  # 2 x h x w
         # print(spatial_emb[spatial_emb < 0])
         sigma = prediction[2:2 + self.n_sigma]  # n_sigma x h x w
-        peek_map = prediction[2 + self.n_sigma].unsqeeze(dim=0).sigmoid()
+        peek_map = prediction[2 + self.n_sigma].unsqueeze(dim=0).sigmoid()
 
         seed_map_all = torch.sigmoid(prediction[2 + self.n_sigma + 1:])  # cls(with background) x h x w
         # seed_map_all = from_seg_pred_to_one_hot(seed_map_all)  # one-hot
