@@ -1,0 +1,144 @@
+Loading and preparing results...
+DONE (t=0.18s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=507.94s).
+Accumulating evaluation results...
+DONE (t=5.19s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.389
+ Average Precision  (AP) @[ IoU=0.25      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.599
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.486
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.422
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.243
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.457
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.516
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.174
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.380
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.557
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.653
+[08/16 04:34:40 d2.evaluation.coco_evaluation]: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 38.855 | 48.597 | 42.168 | 24.257 | 45.697 | 51.629 |
+[08/16 04:34:40 d2.evaluation.coco_evaluation]: Per-category bbox AP: 
+| category          | AP     | category         | AP     | category           | AP     |
+|:------------------|:-------|:-----------------|:-------|:-------------------|:-------|
+| ship              | 41.699 | storage_tank     | 35.800 | baseball_diamond   | 45.931 |
+| tennis_court      | 77.009 | basketball_court | 31.033 | Ground_Track_Field | 37.966 |
+| Bridge            | 21.346 | Large_Vehicle    | 40.742 | Small_Vehicle      | 16.238 |
+| Helicopter        | 18.661 | Swimming_pool    | 33.030 | Roundabout         | 30.665 |
+| Soccer_ball_field | 40.991 | plane            | 66.841 | Harbor             | 44.877 |
+Loading and preparing results...
+DONE (t=2.16s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=533.02s).
+Accumulating evaluation results...
+DONE (t=4.89s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.322
+ Average Precision  (AP) @[ IoU=0.25      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.548
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.402
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.329
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.390
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.459
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.147
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.318
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.256
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.511
+[08/16 04:43:47 d2.evaluation.coco_evaluation]: Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 32.203 | 40.248 | 32.897 | 18.316 | 39.003 | 45.862 |
+[08/16 04:43:47 d2.evaluation.coco_evaluation]: Per-category segm AP: 
+| category          | AP     | category         | AP     | category           | AP     |
+|:------------------|:-------|:-----------------|:-------|:-------------------|:-------|
+| ship              | 37.489 | storage_tank     | 34.820 | baseball_diamond   | 46.891 |
+| tennis_court      | 75.972 | basketball_court | 29.606 | Ground_Track_Field | 22.480 |
+| Bridge            | 17.761 | Large_Vehicle    | 35.974 | Small_Vehicle      | 12.605 |
+| Helicopter        | 4.335  | Swimming_pool    | 28.716 | Roundabout         | 29.861 |
+| Soccer_ball_field | 41.646 | plane            | 42.439 | Harbor             | 22.441 |
+
+
+
+Loading and preparing results...
+DONE (t=0.25s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=637.12s).
+Accumulating evaluation results...
+DONE (t=6.56s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.382
+ Average Precision  (AP) @[ IoU=0.25      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.584
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.476
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.415
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.232
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.453
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.518
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.171
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.460
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.293
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.650
+[08/17 04:08:52 d2.evaluation.coco_evaluation]: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 38.171 | 47.591 | 41.458 | 23.232 | 45.265 | 51.831 |
+[08/17 04:08:52 d2.evaluation.coco_evaluation]: Per-category bbox AP: 
+| category          | AP     | category         | AP     | category           | AP     |
+|:------------------|:-------|:-----------------|:-------|:-------------------|:-------|
+| ship              | 41.223 | storage_tank     | 35.004 | baseball_diamond   | 47.064 |
+| tennis_court      | 76.963 | basketball_court | 30.497 | Ground_Track_Field | 37.369 |
+| Bridge            | 20.576 | Large_Vehicle    | 40.330 | Small_Vehicle      | 15.643 |
+| Helicopter        | 17.538 | Swimming_pool    | 31.786 | Roundabout         | 29.036 |
+| Soccer_ball_field | 39.175 | plane            | 66.380 | Harbor             | 43.981 |
+Loading and preparing results...
+DONE (t=2.48s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=724.28s).
+Accumulating evaluation results...
+DONE (t=7.65s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.315
+ Average Precision  (AP) @[ IoU=0.25      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.534
+ Average Precision  (AP) @[ IoU=0.70      | area=   all | maxDets=100 ] = 0.393
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.324
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.176
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.385
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.457
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.144
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.313
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.388
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.245
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.467
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.514
+[08/17 04:21:16 d2.evaluation.coco_evaluation]: Evaluation results for segm: 
+|   AP   |  AP50  |  AP75  |  APs   |  APm   |  APl   |
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| 31.501 | 39.345 | 32.353 | 17.594 | 38.536 | 45.745 |
+[08/17 04:21:16 d2.evaluation.coco_evaluation]: Per-category segm AP: 
+| category          | AP     | category         | AP     | category           | AP     |
+|:------------------|:-------|:-----------------|:-------|:-------------------|:-------|
+| ship              | 36.952 | storage_tank     | 34.018 | baseball_diamond   | 46.530 |
+| tennis_court      | 75.363 | basketball_court | 29.008 | Ground_Track_Field | 21.964 |
+| Bridge            | 16.667 | Large_Vehicle    | 35.214 | Small_Vehicle      | 12.084 |
+| Helicopter        | 4.512  | Swimming_pool    | 27.424 | Roundabout         | 28.326 |
+| Soccer_ball_field | 38.961 | plane            | 43.440 | Harbor             | 22.052 |
+

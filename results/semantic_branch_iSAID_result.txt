@@ -1,0 +1,44 @@
+['ship', 'storage_tank', 'baseball_diamond', 'tennis_court', 'basketball_court', 'Ground_Track_Field', 'Bridge', 'Large_Vehicle', 'Small_Vehicle', 'Helicopter', 'Swimming_pool', 'Roundabout', 'Soccer_ball_field', 'plane', 'Harbor']
+Loading and preparing results...
+DONE (t=2.07s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=366.99s).
+Accumulating evaluation results...
+DONE (t=1.87s).
+~~~~ Mean and per-category AP @ IoU=[0.50,0.95] ~~~~
+12.3
+ship,13.4
+storage_tank,15.8
+baseball_diamond,25.9
+tennis_court,48.6
+basketball_court,12.2
+Ground_Track_Field,2.8
+Bridge,0.0
+Large_Vehicle,6.9
+Small_Vehicle,5.3
+Helicopter,4.7
+Swimming_pool,21.3
+Roundabout,12.9
+Soccer_ball_field,6.1
+plane,8.1
+Harbor,0.0
+~~~~ Summary metrics ~~~~
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.123
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.082
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.080
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.174
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.130
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.061
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.141
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.171
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.113
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.218
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.166
+Wrote json eval results to: ../../iSAID_weakly/eval/segmentation_results.pkl
+ap50:0.3
+ap:0.123
+
